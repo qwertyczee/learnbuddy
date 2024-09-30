@@ -1,0 +1,101 @@
+// login.module.scss
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; // Světlý pozadí, můžeš upravit
+
+  .newContainer {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff; // Bílý pozadí pro formulář
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Jemný stín
+
+    .top {
+      text-align: center;
+      margin-bottom: 20px;
+
+      h1 {
+        font-size: 24px;
+        color: #333; // Tmavě šedý text
+      }
+    }
+
+    .bottom {
+      .right {
+        form {
+          display: flex;
+          flex-direction: column;
+
+          .formInput {
+            margin-bottom: 15px;
+
+            label {
+              display: block;
+              font-size: 14px;
+              color: #555; // Šedý text pro labely
+              margin-bottom: 5px;
+            }
+
+            input {
+              width: 100%;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              font-size: 14px;
+              color: #333;
+              box-sizing: border-box; // Zajišťuje, že padding je součástí šířky
+            }
+          }
+
+          .error {
+            color: red;
+            margin-bottom: 15px;
+          }
+
+          button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff; // Modrá barva pro tlačítko
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+              background-color: #0056b3; // Tmavší modrá při hoveru
+            }
+
+            &:disabled {
+              background-color: #cccccc; // Světlá šedá pro disabled tlačítko
+              cursor: not-allowed;
+            }
+          }
+
+          div {
+            text-align: center;
+            margin-top: 10px;
+
+            span {
+              font-size: 14px;
+            }
+
+            a {
+              color: #007bff;
+              text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

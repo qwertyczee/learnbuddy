@@ -1,0 +1,7 @@
+[
+    {
+        "origin": ["http://192.168.133.72:3000", "http://localhost:3000", "https://presloviny.cz"],
+        "method": ["GET", "POST"],
+        "maxAgeSeconds": 3600
+    }
+]

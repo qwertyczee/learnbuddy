@@ -1,0 +1,44 @@
+.hljs {
+    background: #212121;
+    color: #e0e0e0;
+}
+
+.hljs-keyword {
+    color: #c792ea; /* Purple color for keywords */
+}
+
+.hljs-built_in,
+.hljs-type {
+    color: #ffcb6b; /* Yellowish color for built-in types and types */
+}
+
+.hljs-literal {
+    color: #f78c6c; /* Orange color for literals */
+}
+
+.hljs-number {
+    color: #f78c6c; /* Orange color for numbers */
+}
+
+.hljs-string {
+    color: #ecc48d; /* Light yellow color for strings */
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #616161; /* Gray color for comments and quotes */
+}
+
+.hljs-function,
+.hljs-title {
+    color: #82aaff; /* Light blue color for functions and titles */
+}
+
+.hljs-variable,
+.hljs-selector-tag {
+    color: #ff5555; /* Red color for variables and selectors */
+}
+
+.hljs-attribute {
+    color: #c792ea; /* Purple color for attributes */
+}
